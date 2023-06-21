@@ -18,389 +18,71 @@
     <!-- Style Theme -->
     <link rel="stylesheet" type="text/css" href="css/style.css?v=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <!-- Responsive Theme -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
-    <!-- Style Straight Theme -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/style-straight.css"> --
-    <style type="text/css">
-        @media(min-width:768px) and (max-width: 1024px) {
-            .first-section h1 {
-                font-size: 2.3em !important;
-            }
-        }
 
-        @media(max-width:767px) {
-            .registration_quote {
-                font-size: 1.8em !important;
-            }
-            .text,
-            .overview-pricing-cta p {
-                text-align: center !important;
-                padding-left: none !important;
-                width: 100% !important;
-            }
-            .padd {
-                padding-top: 200px !important
-            }
-            .second-section {
-                padding-top: 380px !important;
-            }
-            #accordion ul li {
-                color: #3a3864;
-                font-size: 14px;
-                line-height: 28px;
-                font-weight: 400;
-                margin-left: 15px;
-            }
-            .form-box {
-                float: none !important;
-                display: inline-block;
-                width: 100% !important;
-                border-radius: 8px !important;
-            }
-            .form-box-col {
-                text-align: center;
-            }
-            .form-box .form-group,
-            h4 {
-                text-align: left !important;
-            }
-            .first-section h1 {
-                font-size: 1.7em !important;
-            }
-            .first-section p {
-                font-size: 0.8em !important;
-            }
-        }
-
-        @media(max-width:320px) {
-            .second-block {
-                margin-top: 40px;
-            }
-        }
-
-        @media(min-width:767px) {
-            .first-section {
-                background-position-y: bottom !important;
-                max-height: 653px !important;
-                padding: 180px 0 0 !important;
-            }
-            #accordion ul li {
-                color: #3a3864;
-                font-size: 18px;
-                line-height: 28px;
-                font-weight: 400;
-                margin-left: 15px;
-            }
-        }
-
-        @media(max-width: 991px) {
-            .first-section {
-                background-position-y: bottom !important;
-                max-height: 653px !important;
-                padding: 180px 0 0 !important;
-            }
-        }
-
-        
-
-        @media(min-width: 2000px) {
-            .first-section {
-                background-position-y: bottom !important;
-                max-height: 653px !important;
-                padding: 180px 0 0 !important;
-            }
-        }
-
-        @media(min-width: 1441px) {
-            .first-section {
-                background-position-y: bottom !important;
-                max-height: 653px !important;
-                padding: 180px 0 0 !important;
-            }
-        }
-
-        ul.breadcrumbs {
-            padding-left: 0;
-            padding-bottom: 40px;
-            font-size: .8em;
-            line-height: 1em;
-            margin-right: 10px;
-            opacity: .75;
-            white-space: nowrap;
-        }
-
-        ul.breadcrumbs li {
-            float: left;
-            list-style-type: none;
-            margin: 0 5px;
-            color: #fff;
-        }
-
-        ul.breadcrumbs li a {
-            text-decoration: underline;
-            color: #fff;
-        }
-
-        .first-section {
-            background-position: left bottom !important;
-            background-size: cover !important;
-        }
-
-        @media(min-width:767px) and (max-width: 991px) {
-            .first-section {
-                max-height: 767px !important;
-            }
-            .button-bottom {
-                text-align: left !important;
-            }
-            .second-section {
-                padding-top: 0px !important;
-            }
-        }
-
-        html,
-        body {
-            overflow-x: hidden !important;
-        }
-
-        h2 {
-            font-weight: 400;
-            margin: .7em 0;
-            font-size: 2.25em;
-        }
-
-        article p {
-            margin-top: 15px;
-            color: black !important;
-        }
-
-        article {
-            margin-top: 15px;
-        }
-
-        @media(min-width: 992px) and (max-width: 1200px) {
-            .header-block ul li a {
-                font-size: 14px;
-            }
-        }
-
-        .message-form .blue-brd-btn {
-            background: #fff;
-        }
-
-        .message-form {
-            padding: 32px 32px;
-            background-color: #eef0f2;
-        }
-
-        .blue-brd-btn {
-            cursor: pointer;
-        }
-
-        .blue-brd-btn:hover {
-            cursor: pointer;
-            color: white !important;
-            background: #000;
-        }
-
-        .message-form input,
-        .message-form textarea {
-            border-color: #f2f2f2 !important;
-            outline: none;
-            height: 60px;
-        }
-
-        .message-form input::placeholder,
-        .message-form textarea::placeholder {
-            color: #000 !important;
-            vertical-align: middle !important;
-            line-height: 45px;
-        }
-
-        /*.lang-picker a
-{
-  color: #3a3864 !important;
-    font-size: 11px !important;
-    font-weight: 600 !important;
-}
-.lang-picker{
-  background: #f2f2f2 !important;
-  height: 20px;
-  line-height: 20px;
-  text-align: right;
-  padding-bottom: 23px;
-}
-.lang-picker-inside{
-  right: 30px;
-}*/
-
-        .accordion-header button {
-            color: #131149;
-            font-size: 20px;
-            font-weight: 700;
-            width: 100%;
-            text-align: left;
-            text-decoration: none;
-            padding: 31px 65px 31px 30px;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-direction: row;
-            flex-direction: row;
-            white-space: normal;
-            -ms-flex-align: center;
-            align-items: center;
-            -ms-flex-pack: justify;
-            justify-content: space-between;
-            text-decoration: none;
-        }
-
-        .accordion-header button:hover {
-            text-decoration: none;
-            color: #131149;
-        }
-
-        .accordion-header button:active,
-        .accordion-header button:focus {
-            text-decoration: none;
-            color: #131149;
-        }
-
-        .accordion-body ul li {
-            color: #3a3864;
-            font-size: 18px;
-            line-height: 28px;
-            font-weight: 400;
-            margin-left: 15px;
-        }
-
-        .form-box {
-            border-radius: 15px;
-            /*box-shadow: 3px 3px 0 lightgrey, 0 -5px 2px -5px lightgrey, -5px 0 1px -5px lightgrey;*/
-            /*box-shadow: 2px 2px 5px lightgrey, 0 -5px 2px -5px lightgrey, -5px 0 1px -5px lightgrey;*/
-            /* box-shadow:0px 2px 5px lightgrey, 0 -5px 2px -5px lightgrey, 0px 0 0px -5px lightgrey;*/
-            box-shadow: 0px 2px 0px lightgrey, 0 5px 2px -1px lightgrey, 0px 0 0px -5px lightgrey;
-        }
-
-        #enquiryform input,
-        #enquiryform select,
-        #enquiryform textarea {
-            border-color: #f2f2f2 !important;
-            outline: none;
-            background-color: #f2f2f2;
-        }
-
-        #enquiryform label {
-            font-weight: bold;
-        }
-
-        #enquiryform .blue-brd-btn {
-            background: #131149;
-            color: #fff;
-            border-color: #131149 !important;
-            border-radius: 5px;
-        }
-
-        .boxes .reviews-inside {
-            height: 260px;
-            width: 260px;
-            background: #f2f2f2;
-            margin-bottom: 15px;
-            padding: 15px !important;
-            /*box-shadow: 3px 3px 0 lightgrey, 0 -5px 2px -5px lightgrey, -5px 0 1px -5px lightgrey;*/
-            box-shadow: 2px 2px 5px lightgrey, 0 -5px 2px -5px lightgrey, -5px 0 1px -5px lightgrey;
-        }
-
-        .review-text {
-            padding-top: 15px !important;
-        }
-
-        .select2-search__field {
-            height: 52px !important;
-        }
-
-        .iti--separate-dial-code {
-            width: 100%;
-        }
-    </style>
+   
 </head>
 
-<body class="questions-page">
-    <!-- Google Tag Manager (noscript) -->
+<body >
     <div class="wrapper">
-        <!--===================== Header ========================-->
         <header>
-
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-3 col-lg-3 col-md-12">
+                <div class="row align-items-center my-auto">
+                    <div class="col-xl-3 col-3  mx-auto">
                         <a href="https://whiteworth.com">
-						<img src="assets/img/White-2.png" class="logo bg-dark" alt="images">
+						<img src="assets/img/White-2.png" class="logo" style=" filter: invert(100%);" alt="images">
 					</a>
                     </div>
-                    <div class="col-xl-9 col-lg-9 col-md-12 text-right">
+                    <div class="col-xl-9 col-9  text-right">
                         <!--===================== Header Block ========================-->
                         <div class="header-block" style="text-align: right">
                             <ul class="nav-menu list-unstyled list-inline">
-
-                                <li class="list-inline-item" style="padding-right: 0px;"><a href="">Call Us</a><a href="tel:+971585606800" style="color: #f3af3c;font-weight: bold;margin-top: 5px;display: block;font-size: 20px;">+971585606800</a></li>
-
+                                <li class="list-inline-item"   ><a href="">Call Us</a><br> <a href="tel:+971585606800" class="text-warning fw-bold mt-5 fs-5">+971585606800</a></li>
                             </ul>
-                         
                         </div>
-                        <button class="mobile-btn">
-						<span></span>
 					</button>
                         <!--===================== End of Header Block ========================-->
                     </div>
                 </div>
             </div>
         </header>
-        <!--===================== End of Header ========================-->
         <!--===================== First Section ========================-->
 
-
-        <div class="first-section animatedParent">
+        <div class="overflow-hidden py-5 bg-header text-white">
             <div class="container">
-                <div class="row">
+                <div class="row px-sm-0 px-4">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                        <div class="text" style="padding-top: 0px;max-width: 600px">
+                        <div class="" style="padding-top: 0px;max-width: 600px">
+                            <h1 class="fw-bold text-white pb-4" >Trademark Registration in Dubai</h1>
+                            <p class="text-white fs-6 fw-bold">Your brand is one of your most valuable assets, therefore keeping it safe from theft and infringement is essential. Therefore, we provide easy online trademark registration in Dubai, granting you ownership of your company's name, design, logo, and brand. We also provide trademark search assistance to help you determine whether two marks are comparable. Under a federal law that is applicable to all seven emirates of Dubai, the Ministry of Economy oversees trademark law in that city-state.</p>
 
-                           
-
-                                <h1 style="font-size: 2.5em; line-height: 1.15em; margin: 1em 0 1em;font-weight: bold;" >Trademark registration in Dubai</h1>
-                                <p style="line-height: 1.2em; margin: 0 0 1.1em;font-size: 1.1em">Your brand is one of your most valuable assets, therefore keeping it safe from theft and infringement is essential. Therefore, we provide easy online trademark registration in Dubai, granting you ownership of your company's name, design, logo, and brand. We also provide trademark search assistance to help you determine whether two marks are comparable. Under a federal law that is applicable to all seven emirates of Dubai, the Ministry of Economy oversees trademark law in that city-state.</p>
-
-                                <ul class="text-white" style="line-height: 1.2em;">
-                                    <li class="m-2">To register a trademark in Dubai at a low cost, submit your form right now.</li>
-                                    <li class="m-2">Hire a Highly Qualified Trademark Attorney today to register your trademark!</li>
-                                    </ul>
-                          
-
+                            <ul class="text-white" style="line-height: 1.2em;">
+                                <li class="m-2">To register a trademark in Dubai at a low cost, submit your form right now.</li>
+                                <li class="m-2">Hire a Highly Qualified Trademark Attorney today to register your trademark!</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-12 form-box-col">
-                        <div class="form-box bg-white p-5 h-100 w-75 ">
-                            <form id="enquiryform">
-                                <h4 class="fw-bold text-left mb-4">Get your Free Consultation</h4>                            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-12 mx-auto mt-md-0 mt-5 my-auto ">
+                        <div class="form-box bg-white py-5 h-100 w-75 mx-auto">
+                            <h4 class="fw-bold text-center mb-4 fs-3 ">Register Now !</h4>                            
+                            <form id="enquiryform" class="px-4">
 
                                 <div class="first">
                                     <div class="clearfix"></div><br>
-                                    <label>Name (required)</label>
+                                    <label class="text-dark fw-bold">Name (required)</label>
                                     <div class="clearfix"></div><br>
-                                    <input type="text" name="name" class="form-control" id="exampleInputName2" title="Please Fill your Name" minlength="3" required>
+                                    <input type="text" name="name" placeholder="Your Name" class="form-control" id="exampleInputName2" title="Please Fill your Name" minlength="3" required>
                                 </div>
                                 <div class="Email">
                                     <div class="clearfix"></div><br>
-                                    <label>Email (required)</label>
+                                    <label  class="text-dark fw-bold">Email (required)</label>
                                     <div class="clearfix"></div><br>
-                                    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" id="exampleInputEmail2" required>
+                                    <input type="email" name="email" placeholder="Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" id="exampleInputEmail2" required>
                                 </div>
                                 <div class="">
                                     <div class="clearfix"></div><br>
-                                    <label>Phone</label>
+                                    <label  class="text-dark fw-bold">Phone</label>
                                     <div class="clearfix"></div><br>
-                                    <input type="text" class="form-control"  maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
+                                    <input type="text" class="form-control" placeholder="Mobile No."  maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
                                     Enter 10 Digit Number" required id="phone" name="telephone">
 
                                 </div>
@@ -418,43 +100,36 @@
     </div>
 
 
-    <div class="reviews-wrapper animatedParent">
-        <div class="container">
-            <div class="justify-content-center text-center my-0 py-0">
-                <h2 class="h2-main">Process for registering a trademark</h2>
-                <div class="clearfix"></div>
+    <div class="container my-5">
+        <div class="justify-content-center text-center my-0 py-0">
+            <h2 class="h2-main">Process for registering a trademark</h2>
+            <div class="clearfix"></div>
 
-                <p class="subheading">UAE trademark registration in 3 easy steps</p>
-            </div>
-            <div class="row justify-content-center text-center" style="margin-top: 30px">
-                <article class="col-md-4">
-                    <img src="https://abounaja.com/assets/img/registration/checklist.png" alt="" title="">
-                    <p><strong>1. Fill out our questionnaire for trademark registration.</strong></p>
-                </article>
-                <article class="col-md-4">
-                    <img src="https://abounaja.com/assets/img/registration/search-doc.png" alt="" title="">
-                    <p><strong>2.<strong>Completing the Trademark Form</strong>:Experienced attorneys will handle all of your paperwork, agreements, and registrations.</strong></p>
-                </article>
-                <article class="col-md-4">
-                    <img src="https://abounaja.com/assets/img/registration/mail-doc.png" alt="" title="">
-                    <p><strong>3.<strong>Register a Trademark</strong>: We will give you a  trademark registration certificate</strong></p>
-                </article>
-            </div>
+            <p class="fw-bold">UAE trademark registration in 3 easy steps</p>
+        </div>
+        <div class="row justify-content-center text-center mt-3 d-flex justify-content-evenly">
+            <article class="col-md-3  py-2 rounded-2 mt-3 py-3" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
+                <img src="https://abounaja.com/assets/img/registration/checklist.png" alt="" title="">
+                <p><strong>1. Fill out our questionnaire for trademark registration.</strong></p>
+            </article>
+            <article class="col-md-3  py-2 rounded-2 mt-3 py-3" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
+                <img src="https://abounaja.com/assets/img/registration/search-doc.png" alt="" title="">
+                <p><strong>2.<strong>Completing the Trademark Form</strong>:Experienced attorneys will handle all of your paperwork, agreements, and registrations.</strong></p>
+            </article>
+            <article class="col-md-3  py-2 rounded-2 mt-3 py-3 " style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;" >
+                <img src="https://abounaja.com/assets/img/registration/mail-doc.png" alt="" title="">
+                <p><strong>3.<strong>Register a Trademark</strong>: We will give you a  trademark registration certificate</strong></p>
+            </article>
         </div>
     </div>
 
     <div class="container">
-        <div class="clearfix"></div>
-        <br>
-        <br>
         <div class="text-head text-center">
-            <h5>FAQ</h5>
+            <h5 class="fw-bold fs-3">FAQ</h5>
             <h2 class="h2-main">Questions you often ask</h2>
         </div>
         <!--===================== Accordion ========================-->
         <div id="accordion" class="animatedParent">
-            <!--===================== Accordion Content ========================-->
-
             <div class="accordion-content" style="background: #eef0f2">
                 <div class="accordion-header" id="headingb">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Benefits of registering a trademark in Dubai<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
@@ -473,15 +148,15 @@
 
             <div class="accordion-content" style="background: #f2f2f2">
                 <div class="accordion-header" id="headinga">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Documents Required<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">Documents Required<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
                 </div>
-                <div id="collapse1" class="collapse" aria-labelledby="headingOne">
+                <div id="collapse2" class="collapse" aria-labelledby="headingOne">
                     <div class="accordion-body">
                         <ul>
                             <li>Power of Attorney. </li>
-                            <li>	A copy of the applicant's passport was submitted for design registration in Dubai.</li>
-                            <li>	For a corporate application, a copy of the trade license.</li>
-                            <li>	the name or logo of the brand as art.</li>
+                            <li>A copy of the applicant's passport was submitted for design registration in Dubai.</li>
+                            <li>For a corporate application, a copy of the trade license.</li>
+                            <li>the name or logo of the brand as art.</li>
                         </ul>
                     </div>
                 </div>
@@ -490,9 +165,9 @@
 
             <div class="accordion-content" style="background: #eef0f2">
                 <div class="accordion-header" id="headingOne">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">What is a trademark?<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">What is a trademark?<svg version="1.1" id="Layer_14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
                 </div>
-                <div id="collapse1" class="collapse" aria-labelledby="headingOne">
+                <div id="collapse3" class="collapse" aria-labelledby="headingOne">
                     <div class="accordion-body">
                         <p>Trademarks are distinctive names, words, pictures, and logos that represent your business or brand internationally. For instance, registering your brand names, such as your company name or product line, or your logo or symbol, if you registered it, helps build brand recognition. Additionally, it provides protection for any phrase or slogan used to promote your brand.</p>
                     </div>
@@ -502,9 +177,9 @@
             <!--===================== Accordion Content ========================-->
             <div class="accordion-content" style="background: #f2f2f2">
                 <div class="accordion-header" id="heading2">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">What is a Service Mark?<svg version="1.1" id="Layer_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">What is a Service Mark?<svg version="1.1" id="Layer_15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
                 </div>
-                <div id="collapse2" class="collapse" aria-labelledby="headingTwo">
+                <div id="collapse4" class="collapse" aria-labelledby="headingTwo">
                     <div class="accordion-body">
 
                         <p>With the use of a service mark, you may set yourself apart from other companies and service providers. Design registration in Dubai is essential for all design work as well as related services. </p>
@@ -516,9 +191,9 @@
             <!--===================== Accordion Content ========================-->
             <div class="accordion-content" style="background: #f2f2f2">
                 <div class="accordion-header" id="heading4">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">What is the significance of registering a trademark or logo in Dubai?<svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">What is the significance of registering a trademark or logo in Dubai?<svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
                 </div>
-                <div id="collapse4" class="collapse" aria-labelledby="headingFour">
+                <div id="collapse5" class="collapse" aria-labelledby="headingFour">
                     <div class="accordion-body">
                         <p>By registering your trademark or logo, you can assume exclusive usage and ownership of your mark, limiting the scope of protection to the nation in which you do so. You can also prevent unauthorized use of a trademark or service mark.
                         </p>
@@ -527,15 +202,12 @@
             </div>
             <!--===================== End of Accordion Content ========================-->
 
-
-
-
             <!--===================== Accordion Content ========================-->
             <div class="accordion-content" style="background: #eef0f2">
                 <div class="accordion-header" id="heading5">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">What is the duration of a Dubai trademark registration?<svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">What is the duration of a Dubai trademark registration?<svg version="1.1" id="Layer_13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:transparent;}</style><g><circle class="st0" cx="49" cy="49" r="39"/><path d="M49,11c21,0,38,17,38,38S70,87,49,87S11,70,11,49S28,11,49,11 M49,9C26.9,9,9,26.9,9,49s17.9,40,40,40s40-17.9,40-40S71.1,9,49,9L49,9z"/></g><g><rect x="48.5" y="23.5" class="st0" width="1" height="47"/><path d="M49,24v46V24 M50,23h-2v48h2V23L50,23z"/></g><g><rect x="41.5" y="53.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.9533 48.4436)" class="st0" width="1" height="20.7"/><polygon points="35.1,55.6 33.6,57.1 48.9,72.4 50.4,70.9 35.1,55.6 "/></g><g><rect x="45.7" y="63.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.8528 58.3431)" class="st0" width="20.7" height="1"/><polygon points="62.9,55.6 47.6,70.9 49.1,72.4 64.4,57.1 62.9,55.6 "/></g></svg></button>
                 </div>
-                <div id="collapse5" class="collapse" aria-labelledby="headingFive">
+                <div id="collapse6" class="collapse" aria-labelledby="headingFive">
                     <div class="accordion-body">
                         <p>Since a trademark or brand name registration in Dubai is only valid for ten years, you can renew it once that time period has passed. This will undoubtedly depend on the country where the first registration was made.<br></p>
                     </div>
@@ -550,13 +222,8 @@
 
 
     <div class="container" style="margin-bottom: 50px;">
-       
-        <br>
-        <br>
-    
-
-        <div class="row ">
-            <div class="col-md-7">
+        <div class="row  ">
+            <div class="col-md-6 mx-auto px-4">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <h2 class="h2-main pt-0 mt-0">Get in touch with us</h2>
                     <p class="mb-4 text-dark">Still have concerns about starting a business in Dubai.
@@ -594,12 +261,12 @@
                     </div>
                 </div>
             </div>
-            <div id="request" class="col-md-4 col-12 border border-2 border-secondary rounded-5" style="box-shadow: #131149 2px 5px 6px 0px;">
+            <div id="request" class="col-md-4 col-10 my-sm-0 my-2 border border-2 border-secondary rounded-5 mx-auto" style="box-shadow: #131149 2px 5px 6px 0px;">
                 <form action="custom_form.php" class="d-flex  justify-content-center py-3 bg-white  px-3 " id="lead_form" onsubmit="emailPassage()" method="POST">
                     <div class="row g-3 mt-4">
                         <div class="col-12 ">
                             <input class="form-control border  border-bottom border-secondary bg-light"
-                            type="name" name="name" id="name"
+                            type="name" name="name" id="name" 
                             title="Please Enter Your Name" placeholder="Your Name" required
                                 style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
                         </div>
@@ -616,23 +283,6 @@
                             Enter 10 Digit Number" required
                                 style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
                         </div>
-                        <!-- <div class="col-12 col-sm-6">
-                            <div class="date" id="date" data-target-input="nearest">
-                                <input type="text"
-                                    class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-12 col-sm-6">
-                            <div class="time" id="time" data-target-input="nearest">
-                                <input type="text"
-                                    class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-12">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                        </div> -->
                         <input type="hidden" name="body" id="body" value="Check test">
                         <input type="hidden" name="service_code" value="032" id="service-code">
                         <input type="hidden" name="title" value="Query Form">
@@ -652,13 +302,10 @@
 
 
      <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-light mt-5">
+     <div class="container-fluid  text-light mt-5  bg-header">
         <div class="container">
-            <div class="row gx-5">
-                
-                <div class="col-lg-12 col-md-6">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+            <div class="row gx-5">  
+                        <div class="col-sm-5 col-12 pt-5 mb-3">
                             <div class=" position-relative pb-3 mb-4">
                                 <h3 class="text-light mb-0">Dubai Offices</h3>
                             </div>
@@ -679,7 +326,7 @@
                                             class="fa fa-phone-volume mt-1 text-white me-2"></i>+971585606800</p>
                                 </a>
                             </div>
-                                                        <div class="d-flex mt-4">
+                            <div class="d-flex mt-4">
                                 <a class="btn  bg-white rounded-2 text-info me-2" href="https://twitter.com/thewhiteworth"
                                     aria-label="Twitter"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn  bg-white text-black-50 rounded-2  me-2" href="https://www.facebook.com/WhiteWorth"
@@ -691,7 +338,7 @@
                                     aria-label="pinterest"><i class="fab fa-pinterest fw-normal"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-12 pt-5 mb-5">
+                        <div class="col-sm-7 col-12 pt-5 mb-5">
                             <div class=" position-relative pb-3 mb-4">
                                 <h3 class="text-light mb-0">Location</h3>
                             </div>
@@ -704,223 +351,31 @@
                                         ></a> -->
                             </div>
                         </div>
-
+                </div>
+            </div>
+            <div class="container-fluid text-light ">
+                <div class="container container-fluid text-light ">
+                    <div class="row">
+                        <p class="prg_style text-white">By continuing past this page, you agree to our <a
+                                href="terms-and-conditions.html">Terms and Conditions</a>
+                            <a href="privacy-policy.html">Privacy Policy</a> and <a href="refund-policy.html">Refund
+                                Policy</a> | Copyright © 2015-2023 thewhiteworth.com| All Rights Reserved
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-dark text-light ">
-            <div class="container container-fluid bg-dark text-light ">
-                <div class="row gx-5">
-                    <p class="prg_style text-white">By continuing past this page, you agree to our <a
-                            href="terms-and-conditions.html">Terms and Conditions</a>
-                        <a href="privacy-policy.html">Privacy Policy</a> and <a href="refund-policy.html">Refund
-                            Policy</a> | Copyright © 2015-2023 thewhiteworth.com| All Rights Reserved
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
-
+    <a href="#" aria-label="scroller" class="btn btn-lg rounded-circle text-white
+    back-to-top" style="background-color: #131149;"><i class="fa fa-arrow-up"></i></a>
     <!-- Footer End -->
 
 
-
-
-
-
-    </div>
     <!--wrapper-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
     <script src="assets/js/lib/bootstrap.min.js"></script>
                                                                                                                                  
-    <script type="text/javascript">
-        $(function() {
-            var hash = window.location.hash;
-            hash && $('ul.nav a[href="' + hash + '"]').tab('show');
-
-            $('.nav-tabs a').click(function(e) {
-                $(this).tab('show');
-                var scrollmem = $('body').scrollTop() || $('html').scrollTop();
-                window.location.hash = this.hash;
-                $('html,body').scrollTop(scrollmem);
-            });
-
-            $('#accordion .collapse').collapse('show');
-
-
-            // Variable to hold request
-            var request;
-
-            // Bind to the submit event of our form
-            $("#questionform").submit(function(event) {
-
-                // Prevent default posting of form - put here to work in case of errors
-                event.preventDefault();
-
-                var number = iti2.getNumber();
-                console.log(number);
-
-
-                var form = $('#questionform')[0];
-                var formData = new FormData(form);
-                formData.append("telephone", number);
-
-                // Abort any pending request
-                if (request) {
-                    request.abort();
-                }
-                // setup some local variables
-                var $form = $(this);
-
-                // Let's select and cache all the fields
-                var $inputs = $form.find("input, select, button, textarea");
-                var temp_email = $form.find($('input[type=email]')).val();
-
-                // Serialize the data in the form
-                var serializedData = $form.serialize();
-
-                // Let's disable the inputs for the duration of the Ajax request.
-                // Note: we disable elements AFTER the form data has been serialized.
-                // Disabled form elements will not be serialized.
-                $inputs.prop("disabled", true);
-
-                // Fire off the request to /form.php
-                request = $.ajax({
-                    url: "https://abounaja.com/post-enquiry-form-v2",
-                    type: "POST",
-                    dataType: 'JSON',
-                    data: formData,
-                    processData: false,
-                    contentType: false
-                });
-                // Callback handler that will be called on success
-                request.done(function(response, textStatus, jqXHR) {
-                    // Log a message to the console
-                    console.log("success");
-                    console.log(textStatus);
-                    console.log(jqXHR);
-                    $inputs.prop("disabled", false);
-
-                    if (textStatus == 'success') {
-                        $('.questionBlock').html(
-                            '<div class="alert alert-success" style="padding: 15px;margin-bottom: 15px;"><button type="button" class="close" style="font-weight: bold;color: #000;line-height: 0.5;" data-dismiss="alert">&times;</button>Thank you, we will respond to you soon.</div>');
-                    }
-
-                    $('#questionform').trigger("reset");
-                    $('#questionform').find($('input[type=email]')).val(temp_email);
-                    return false;
-
-                });
-
-                // Callback handler that will be called on failure
-                request.fail(function(jqXHR, textStatus, errorThrown) {
-                    // Log the error to the console
-                    console.error(
-                        "The following error occurred: " +
-                        textStatus, errorThrown
-                    );
-                });
-
-                // Callback handler that will be called regardless
-                // if the request failed or succeeded
-                request.always(function() {
-                    // Reenable the inputs
-                    $inputs.prop("disabled", false);
-                });
-
-            });
-        
-
-            // Bind to the submit event of our form
-            $("#enquiryform").submit(function(event) {
-
-                $('#enquiry-top').attr('disabled', true);
-
-
-                // Prevent default posting of form - put here to work in case of errors
-                event.preventDefault();
-
-                var number = iti.getNumber();
-                console.log(number);
-
-
-                var form = $('#enquiryform')[0];
-                var formData = new FormData(form);
-                formData.append("telephone", number);
-
-                // Abort any pending request
-                if (request) {
-                    request.abort();
-                }
-                // setup some local variables
-                var $form = $(this);
-
-                // Let's select and cache all the fields
-                var $inputs = $form.find("input, select, button, textarea");
-                var temp_email = $form.find($('input[type=email]')).val();
-
-                // Serialize the data in the form
-                var serializedData = $form.serialize();
-
-                // Let's disable the inputs for the duration of the Ajax request.
-                // Note: we disable elements AFTER the form data has been serialized.
-                // Disabled form elements will not be serialized.
-                $inputs.attr("disabled", true);
-
-                // Fire off the request to /form.php
-                request = $.ajax({
-                    url: "https://abounaja.com/post-enquiry-form-v2",
-                    type: "POST",
-                    dataType: 'JSON',
-                    data: formData,
-                    processData: false,
-                    contentType: false
-                });
-                // Callback handler that will be called on success
-                request.done(function(response, textStatus, jqXHR) {
-                    // Log a message to the console
-                    console.log("success");
-                    console.log(textStatus);
-                    console.log(jqXHR);
-                    $inputs.prop("disabled", false);
-
-                    if (textStatus == 'success') {
-
-                        $('#enquiry').attr('disabled', false);
-                        $('.enquiryBlock').html(
-                            '<div class="alert alert-success" style="padding: 15px;margin-bottom: 15px;"><button type="button" class="close" style="font-weight: bold;color: #000;line-height: 0.5;" data-dismiss="alert">&times;</button>Your enquiry is sent, we will respond to you soon.</div>');
-                    }
-
-                    $('#enquiryform').trigger("reset");
-                    $('#enquiryform').find($('input[type=email]')).val(temp_email);
-                    return false;
-
-                });
-
-                // Callback handler that will be called on failure
-                request.fail(function(jqXHR, textStatus, errorThrown) {
-                    // Log the error to the console
-                    console.error(
-                        "The following error occurred: " +
-                        textStatus, errorThrown
-                    );
-                });
-
-                // Callback handler that will be called regardless
-                // if the request failed or succeeded
-                request.always(function() {
-                    // Reenable the inputs
-                    $inputs.attr("disabled", false);
-                });
-
-            });
-        });
-
-               </script>
-
-
 </body>
 
 </html>
