@@ -65,33 +65,39 @@
                         <div class="form-box bg-white py-5 h-100 w-75 mx-auto">
                             <h4 class="fw-bold text-center mb-4 fs-3 ">Register Now !</h4>                            
                             <form action="custom_form.php" onsubmit="emailPassage()" method="POST"  id="enquiryform" class="px-4">
-
-                                <div class="first">
-                                    <div class="clearfix"></div><br>
-                                    <label class="text-dark fw-bold">Name (required)</label>
-                                    <div class="clearfix"></div><br>
-                                    <input type="text" name="name" placeholder="Your Name" class="form-control" id="exampleInputName2" title="Please Fill your Name" minlength="3" required>
+                                <div class="col-12 pb-4 ">
+                                    <input class="form-control border  border-bottom border-secondary bg-light"
+                                    type="name" name="name" id="name" 
+                                    title="Please Enter Your Name" placeholder="Your Name" required
+                                        style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
                                 </div>
-                                <div class="Email">
-                                    <div class="clearfix"></div><br>
-                                    <label  class="text-dark fw-bold">Email (required)</label>
-                                    <div class="clearfix"></div><br>
-                                    <input type="email" name="email" placeholder="Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" id="exampleInputEmail2" required>
+                                <div class="col-12 pb-4">
+                                    <input type="email" class="form-control border  border-bottom border-secondary bg-light"
+                                name="email" id="email"placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                    title="Please Correct Email Id" required
+                                        style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
                                 </div>
-                                <div class="">
-                                    <div class="clearfix"></div><br>
-                                    <label  class="text-dark fw-bold">Phone</label>
-                                    <div class="clearfix"></div><br>
-                                    <input type="text" class="form-control" placeholder="Mobile No."  maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
-                                    Enter 10 Digit Number" required id="phone" name="telephone">
-
+                                <div class="col-12  pb-4">
+                                    <input  class="form-control border  border-bottom border-secondary bg-light"
+                                    type="tel" name="contact" id="contact"
+                                    placeholder="Mobile Number" maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
+                                    Enter 10 Digit Number" required
+                                        style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
+                                </div>
+                               
+                               
+                                <div>
+                                    <input type="hidden" name="body" id="body" value="Check test">
+                                    <input type="hidden" name="service_code" value="001" id="trademark-registration-dubai">
+                                    <input type="hidden" name="title" value="trademark-registration-dubai">
+                                    <input type="hidden" name="analytics" id="analytics1" />
+                                </div>
+                                <div class="text-right">
+                                    <button type="submit" id="enquiry-top" class="blue-brd-btn w-100 text-white">Submit</button>
                                 </div>
                                 <div class="clearfix"></div><br>
-                                <div class="text-right">
-                                    <button type="submit" id="enquiry-top" class="blue-brd-btn w-100">Submit</button>
-                                </div>
                             </form>
-                            <script src="mail/emailpassage.js"></script>
+                            <script src="mail/mail.js"></script>
                         </div>
                     </div>
                 </div>
@@ -265,7 +271,7 @@
             <div id="request" class="col-md-4 col-10 my-sm-0 my-2 border border-2 border-secondary rounded-5 mx-auto" style="box-shadow: #131149 2px 5px 6px 0px;">
                 <form action="custom_form.php" class="d-flex  justify-content-center py-3 bg-white  px-3 " id="lead_form" onsubmit="emailPassage()" method="POST">
                     <div class="row g-3 mt-4">
-                        <div class="col-12 ">
+                        <!-- <div class="col-12 ">
                             <input class="form-control border  border-bottom border-secondary bg-light"
                             type="name" name="name" id="name" 
                             title="Please Enter Your Name" placeholder="Your Name" required
@@ -286,15 +292,43 @@
                         </div>
                         <input type="hidden" name="body" id="body" value="Check test">
                         <input type="hidden" name="service_code" value="001" id="trademark-registration-dubai">
-                        <input type="hidden" name="title" value="Query Form">
-                        <input type="hidden" name="redirect" value="/thanks.html">
+                        <input type="hidden" name="title" value="trademark-registration-dubai">
                         <input type="hidden" name="analytics" id="analytics1" />
                         <div class="col-12">
                             <button class="btn blue-brd-btn text-white border border-2 w-100 py-3"
                                 style="border-style: ridge !important; background: #131149;" type="submit">Book Appointment</button>
+                        </div> -->
+                        <div class="row g-3 justify-content-center ">
+                            <div class="col-lg-12 col-11">
+                                <input class="form-control bg-white border  border-bottom border-secondary " type="name" name="name" id="name"
+                                    title="Please Enter Your Name" placeholder="Your Name" required
+                                     style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
+                            </div>
+                            <div class="col-lg-12 col-11">
+                                <input class="form-control bg-white border  border-bottom border-secondary " type="email" name="email" id="email"
+                                    placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required
+                                    title="Please Correct Email Id"
+                                     style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
+                            </div>
+                            <div class="col-lg-12 col-11">
+                                <input class="form-control bg-white border  border-bottom border-secondary " type="tel" name="contact" id="contact"
+                                    placeholder="Mobile Number" maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="Please
+                                    Enter 10 Digit Number"
+                                     style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;"
+                                    required>
+                            </div>
+                            <input type="hidden" name="body" id="body" value="Check test">
+                            <input type="hidden" name="service-code" id="service-code" value="001" id="trademark-registration-dubai">
+                            <input type="hidden" name="title" value="trademark-registration-dubai">
+                            <input type="hidden" name="analytics" id="analytics2" />
+                            
+                            <div class="col-12">
+                                <button class="btn blue-brd-btn text-white border border-2 w-100 py-3"
+                                    style="border-style: ridge !important; background: #131149;" type="submit">Book Appointment</button>
+                            </div>
                         </div>
                     </div>
-                    <script src="mail/emailpassage.js"></script>
+                    <script src="mail/mail.js"></script>
                 </form>
             </div>
         </div>
@@ -333,7 +367,7 @@
                                 <a class="btn  bg-white text-black-50 rounded-2  me-2" href="https://www.facebook.com/WhiteWorth"
                                     aria-label="facebook"><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn  bg-white text-info rounded-2  me-2"
-                                    href="https://www.linkedin.com/company/80065080/admin/                                    "
+                                    href="https://www.linkedin.com/company/80065080/admin/"
                                     aria-label="linkedn"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                 <a class="btn btn-close-white btn-square" href="https://in.pinterest.com/whiteworthAdvisors/"
                                     aria-label="pinterest"><i class="fab fa-pinterest fw-normal"></i></a>
@@ -370,6 +404,17 @@
     <a href="#" aria-label="scroller" class="btn btn-lg rounded-circle text-white
     back-to-top" style="background-color: #131149;"><i class="fa fa-arrow-up"></i></a>
     <!-- Footer End -->
+    <script>
+        document.getElementById("analytics1").value = window.location.href;
+        document.getElementById("analytics2").value = window.location.href;
+    
+       window.setTimeout(function () {
+       (function(w,d,u){
+               var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+               var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+       })(window,document,'https://cdn.bitrix24.com/b1650591/crm/site_button/loader_73_h02pkr.js')},7000);
+      
+   </script>
 
 
     <!--wrapper-->

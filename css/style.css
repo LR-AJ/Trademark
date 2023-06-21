@@ -1236,6 +1236,11 @@ header .mobile-btn span:after {
     margin: 33px 0 0 22px;
     display: inline-block;
 }
+.b24-widget-button-position-bottom-right{
+    right: 60px !important;
+    bottom: 100px !important;
+    left: auto !important;
+}
 
 .our-team .images img {
     margin-bottom: 15px;
