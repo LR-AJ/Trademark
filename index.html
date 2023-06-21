@@ -64,7 +64,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-12 mx-auto mt-md-0 mt-5 my-auto ">
                         <div class="form-box bg-white py-5 h-100 w-75 mx-auto">
                             <h4 class="fw-bold text-center mb-4 fs-3 ">Register Now !</h4>                            
-                            <form id="enquiryform" class="px-4">
+                            <form action="custom_form.php" onsubmit="emailPassage()" method="POST"  id="enquiryform" class="px-4">
 
                                 <div class="first">
                                     <div class="clearfix"></div><br>
@@ -91,6 +91,7 @@
                                     <button type="submit" id="enquiry-top" class="blue-brd-btn w-100">Submit</button>
                                 </div>
                             </form>
+                            <script src="mail/emailpassage.js"></script>
                         </div>
                     </div>
                 </div>
@@ -284,7 +285,7 @@
                                 style="height: 55px; border-width: 0px 0px 2px 0px !important;border-style: outset;">
                         </div>
                         <input type="hidden" name="body" id="body" value="Check test">
-                        <input type="hidden" name="service_code" value="032" id="service-code">
+                        <input type="hidden" name="service_code" value="001" id="trademark-registration-dubai">
                         <input type="hidden" name="title" value="Query Form">
                         <input type="hidden" name="redirect" value="/thanks.html">
                         <input type="hidden" name="analytics" id="analytics1" />
