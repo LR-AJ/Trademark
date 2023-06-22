@@ -6,8 +6,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-print_r($_POST);
-// 	die();
 
 
 if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['contact'])) {
@@ -16,9 +14,10 @@ if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['contact']))
 }
 $name = urldecode($_POST['name']);
 $redirect = $_POST['redirect'];
+$contact = $_POST['contact'];
+$email =$_POST['email'];
 
 // print_r($redirect);
-// die();
 function validateInput() {
 	function test_input($data) {
 		$data = trim($data);
@@ -84,6 +83,8 @@ $Data = array(
 );
 // print_r($Data);
 // die();
+
+
 
 $leadId = bitrix_funtion($Data, '');
 

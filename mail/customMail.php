@@ -21,18 +21,7 @@ require 'autoload.php';
 		$phone = $_POST['phone'];
 		$service_code =$_POST['service_code'];
 		$service_name = [
-			'001' =>'Private Limited Company Registeration',
-			'002' =>'Limited Liability Partnership (LLP) Registration',
-			'003' =>'Nidhi Company Registeration',
-			'004' =>'OPC Registeration',
-			'005' =>'Section 8 Registeration',
-			'006' =>'Micro Finance Company',
-			'007' =>'NBFC Registeration',
-			'008' =>'NBFC Sales India',
-			'009' =>'NBFC Takeover',
-			'010' =>'NBFC MFI',
-			'011' =>'Buy NBFC',
-			'012' =>'Sell NBFC',
+			'001' =>'Trademark Registration In Dubai',
 		];
 		$status="fa";
 		$response ="jack";
