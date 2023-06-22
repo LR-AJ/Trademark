@@ -1237,9 +1237,9 @@ header .mobile-btn span:after {
     display: inline-block;
 }
 .b24-widget-button-position-bottom-right{
-    right: 60px !important;
+    right: auto !important;
     bottom: 100px !important;
-    left: auto !important;
+    left: 60px !important;
 }
 
 .our-team .images img {
